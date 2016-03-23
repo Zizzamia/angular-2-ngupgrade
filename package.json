@@ -17,6 +17,12 @@
   },
   "homepage": "https://github.com/Zizzamia/angular-2-ngupgrade#readme",
   "dependencies": {
+    "babel-core": "^6.7.2",
+    "babel-loader": "^4.2.0",
+    "css-loader": "^0.23.1",
+    "exports-loader": "^0.6.2",
+    "expose-loader": "^0.6.0",
+    "file-loader": "^0.8.1",
     "gulp": "^3.9.1",
     "gulp-clean": "^0.3.1",
     "gulp-concat": "^2.6.0",
@@ -24,7 +30,15 @@
     "gulp-protractor": "^1.0.0",
     "gulp-rimraf": "^0.1.1",
     "gutil": "^1.6.4",
+    "html-loader": "~0.2.3",
+    "imports-loader": "^0.6.3",
+    "include-all": "~0.1.3",
+    "less": "^2.5.3",
+    "less-loader": "^2.1.0",
+    "ng-annotate-loader": "0.0.2",
     "run-sequence": "^1.1.5",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
     "webpack": "^1.12.14"
   }
 }

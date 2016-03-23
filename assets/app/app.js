@@ -10,9 +10,9 @@ var adapter = new ng.upgrade.UpgradeAdapter();
 angular.module('App.components.ng2', [])
 
 
-angular.module('Plan', [
+angular.module('App', [
   'ngRoute',
-  'Plan.components.ng2'
+  'App.components.ng2'
 ]).config(function($locationProvider, $routeProvider) {
   // Use the HTML5 History API
   $locationProvider.html5Mode(true);
