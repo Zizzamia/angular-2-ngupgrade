@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <title>ng2 upgrade</title>
+
+  <script src="/build/base.js"></script>
+  <script data-require="angular.js@1.5.x" 
+  src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.2/angular.min.js" 
+  data-semver="1.5.2"></script>
+  <script data-require="angular.js@1.5.x" 
+  src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.2/angular-route.js" 
+  data-semver="1.5.2"></script>
+  <script src="/build/angular2-polyfills.js?v2.0.0-beta.9"></script>
+  <script src="/build/Rx.umd.js"></script>
+  <script src="/build/angular2-all.umd.js?v2.0.0-beta.9"></script>
+  <script src="/build/vendor.js"></script>
+
+  <base>
+</head>
+<body>
+
+  <div ng-view class="app"></div>
+
+  <script src="/build/main.js"></script>
+</body>
+</html>

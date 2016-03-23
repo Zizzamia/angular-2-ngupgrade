@@ -1,0 +1,28 @@
+{
+  "name": "angular-2-ngupgrade",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zizzamia/angular-2-ngupgrade.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zizzamia/angular-2-ngupgrade/issues"
+  },
+  "homepage": "https://github.com/Zizzamia/angular-2-ngupgrade#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-eslint": "^0.11.1",
+    "gulp-protractor": "^1.0.0",
+    "gulp-rimraf": "^0.1.1",
+    "gutil": "^1.6.4"
+  }
+}
