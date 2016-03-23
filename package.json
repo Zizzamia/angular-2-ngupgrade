@@ -23,6 +23,8 @@
     "gulp-eslint": "^0.11.1",
     "gulp-protractor": "^1.0.0",
     "gulp-rimraf": "^0.1.1",
-    "gutil": "^1.6.4"
+    "gutil": "^1.6.4",
+    "run-sequence": "^1.1.5",
+    "webpack": "^1.12.14"
   }
 }

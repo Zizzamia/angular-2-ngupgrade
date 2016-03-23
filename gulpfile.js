@@ -28,6 +28,16 @@ gulp.task('vars:build', function() {
 });
 
 /**
+ * Clean
+ * Cleans the build directory before a build. */
+gulp.task('clean', function() {
+  return gulp.src(buildConfig.dir + '/').pipe(clean());
+});
+gulp.task('clean:main', function() {
+  return gulp.src(buildConfig.dir + '/main.js').pipe(clean());
+});
+
+/**
  * Webpack
  * Builds an app bundle once. Used for the build task. */
 gulp.task('webpack-build', ['pre-build'], function(callback) {

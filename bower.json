@@ -1,0 +1,22 @@
+{
+  "name": "angular-2-ngupgrade",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Leonardo Zizzamia <leonardo.zizzamia@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/Zizzamia/angular-2-ngupgrade",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "moment": "~2.10.6",
+    "jquery": "~2.2.2"
+  }
+}
