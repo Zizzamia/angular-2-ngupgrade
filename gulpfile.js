@@ -113,3 +113,17 @@ function webpackConfig() {
 
   return require('./assets/config/webpack-make-config')(options);
 }
+
+/**
+ * Development
+ * Starts a development environment that reloads on code changes.
+ */
+gulp.task('dev', function () {
+  gulp.run('build');
+  gulp.watch(['assets/app/**/*'], function (event) {
+    gulp.run('build');
+  });
+});
+
+/** Default task: development. */
+gulp.task('default', ['dev']);

@@ -14,8 +14,6 @@ angular.module('App', [
   'ngRoute',
   'App.components.ng2'
 ]).config(function($locationProvider, $routeProvider) {
-  // Use the HTML5 History API
-  $locationProvider.html5Mode(true);
 
   $routeProvider
     .when('/', {
